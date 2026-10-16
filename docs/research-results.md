@@ -26,7 +26,7 @@ Values below were checked against **Table II on page 2 of the forecasting manusc
 
 | Approach | MAE (W) | RMSE (W) | R² |
 | --- | ---: | ---: | ---: |
-| Physical-model baseline | 1.878 | 3.111 | 0.953 |
+| pvlib physical baseline | 1.878 | 3.111 | 0.953 |
 | Best evaluated hybrid forecast | 0.824 | 1.615 | 0.987 |
 
 The hybrid has lower reported MAE and RMSE than the baseline on this evaluation. Its relative MAE reduction is approximately **56.1%** and its relative RMSE reduction is approximately **48.1%**, computed as the decrease divided by the corresponding baseline value, using the rounded values in the table.
@@ -43,7 +43,7 @@ The supplied manuscript reports a quantitative improvement over its physical bas
 
 The benchmark has not been independently reproduced from raw data and executable evaluation code. The supplied manuscript does not provide per-lead-time scores, uncertainty intervals, or multi-site validation. Its aggregate metrics therefore do not establish the same performance on every day of a seven-day horizon or on another PV installation.
 
-The monitoring source repository was inspected separately. The research score must not be attributed to its existing display estimate or treated as proof of a deployed trained model.
+A private monitoring-code snapshot was inspected separately. It is not established as the complete research implementation. The research score must not be attributed to its existing display estimate or treated as proof of a deployed trained model. A future private implementation audit could strengthen traceability; it is optional for this documentation-only showcase.
 
 ## 2. Weather-aware monitoring study
 
@@ -63,7 +63,16 @@ The case illustrates a large mismatch between expected and measured output. The 
 
 This is one reported case, not a detection benchmark. It does not establish precision, recall, false-alarm rate, sensor accuracy, or calibrated fault diagnosis. The alert decision logic and operating thresholds are not disclosed.
 
-## 3. Evidence and publication status
+## 3. Manuscript provenance
+
+The author-provided manuscripts are titled:
+
+- *A Hybrid pvlib-Machine Learning Correction Framework for Seven-Day Solar PV Power Forecasting* — architecture and evaluation narrative on pages 1–2; aggregate results in Table II, page 2.
+- *A Weather-Aware IoT Monitoring and Smart Alerting System for Solar PV Underperformance Detection* — system architecture in Section II, page 1; reported case in Section V and Table II, page 2.
+
+These are supplied AUPEC 2026 manuscripts, not public paper downloads. Both name Saeed Ali Asiri as the sole author. Their availability does not establish conference acceptance or publication.
+
+## 4. Evidence and publication status
 
 - **Evidence reviewed:** two author-provided private manuscripts; relevant tables and narrative were checked visually and by text extraction.
 - **Public disclosure:** aggregate metrics, a single reported case, high-level purpose, and evaluation context.
