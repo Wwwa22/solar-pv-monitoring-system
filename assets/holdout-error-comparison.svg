@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="691.2pt" height="309.6pt" viewBox="0 0 691.2 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Solar PV portfolio documentation</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 309.6 
+L 691.2 309.6 
+L 691.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.296 238.392 
+L 677.376 238.392 
+L 677.376 74.304 
+L 55.296 74.304 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5a25c21782" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5a25c21782" x="189.608727" y="238.392" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="189.608727" y="253.750281" transform="rotate(-0 189.608727 253.750281)">MAE</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5a25c21782" x="543.063273" y="238.392" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="543.063273" y="253.750281" transform="rotate(-0 543.063273 253.750281)">RMSE</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 55.296 238.392 
+L 677.376 238.392 
+" clip-path="url(#p142673bdc6)" style="fill: none; stroke: #e4e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="51.796" y="242.571141" transform="rotate(-0 51.796 242.571141)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 55.296 195.210947 
+L 677.376 195.210947 
+" clip-path="url(#p142673bdc6)" style="fill: none; stroke: #e4e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="51.796" y="199.390088" transform="rotate(-0 51.796 199.390088)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 55.296 152.029895 
+L 677.376 152.029895 
+" clip-path="url(#p142673bdc6)" style="fill: none; stroke: #e4e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="51.796" y="156.209035" transform="rotate(-0 51.796 156.209035)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 55.296 108.848842 
+L 677.376 108.848842 
+" clip-path="url(#p142673bdc6)" style="fill: none; stroke: #e4e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end" x="51.796" y="113.027983" transform="rotate(-0 51.796 113.027983)">3</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="38.509594" y="156.348" transform="rotate(-90 38.509594 156.348)">Prediction error (W)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 55.296 238.392 
+L 677.376 238.392 
+" style="fill: none; stroke: #cad2dc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 83.572364 238.392 
+L 189.608727 238.392 
+L 189.608727 157.297983 
+L 83.572364 157.297983 
+z
+" clip-path="url(#p142673bdc6)" style="fill: #52657a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 437.026909 238.392 
+L 543.063273 238.392 
+L 543.063273 104.055745 
+L 437.026909 104.055745 
+z
+" clip-path="url(#p142673bdc6)" style="fill: #52657a"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="136.590545" y="149.802358" transform="rotate(-0 136.590545 149.802358)">1.878</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="490.045091" y="96.56012" transform="rotate(-0 490.045091 96.56012)">3.111</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 189.608727 238.392 
+L 295.645091 238.392 
+L 295.645091 202.810813 
+L 189.608727 202.810813 
+z
+" clip-path="url(#p142673bdc6)" style="fill: #087f8c"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 543.063273 238.392 
+L 649.099636 238.392 
+L 649.099636 168.6546 
+L 543.063273 168.6546 
+z
+" clip-path="url(#p142673bdc6)" style="fill: #087f8c"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="242.626909" y="195.315188" transform="rotate(-0 242.626909 195.315188)">0.824</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="596.081455" y="161.158975" transform="rotate(-0 596.081455 161.158975)">1.615</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52657a" x="55.296" y="68.56092" transform="rotate(-0 55.296 68.56092)">Manuscript-reported results · 2,567 test rows · not independently reproduced</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start" x="55.296" y="39.304" transform="rotate(-0 55.296 39.304)">Lower error in the reported prototype holdout</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_8">
+     <path d="M 64.296 279.603637 
+L 84.296 279.603637 
+L 84.296 272.603637 
+L 64.296 272.603637 
+z
+" style="fill: #52657a"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="92.296" y="279.603637" transform="rotate(-0 92.296 279.603637)">pvlib physical baseline</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 225.706937 279.603637 
+L 245.706937 279.603637 
+L 245.706937 272.603637 
+L 225.706937 272.603637 
+z
+" style="fill: #087f8c"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="253.706937" y="279.603637" transform="rotate(-0 253.706937 279.603637)">Best evaluated hybrid</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52657a" x="55.296" y="304.0272" transform="rotate(-0 55.296 304.0272)">Source: forecasting manuscript, Table II, p. 2. Original chart redrawn from aggregate values.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p142673bdc6">
+   <rect x="55.296" y="74.304" width="622.08" height="164.088"/>
+  </clipPath>
+ </defs>
+</svg>
